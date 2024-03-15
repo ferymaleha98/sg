@@ -3,7 +3,7 @@ const http = require('http');
 const url = require('url');
 const request = require('request');
 
-let PORT = process.env.PORT || 443;
+let PORT = process.env.PORT || 8080;
 
 process.argv.forEach(function (arg) {
   if(arg.indexOf('--port=') === 0) {
